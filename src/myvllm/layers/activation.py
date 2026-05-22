@@ -7,6 +7,9 @@ class SiluAndMul(nn.Module):
     """
     A custom activation layer that applies the SiLU (Sigmoid Linear Unit) activation
     function followed by element-wise multiplication with the input tensor.
+    一个自定义激活层, 应用了Sigmoid Linear Unit(SiLU)激活函数
+    函数，然后与输入张量进行元素级乘法
+    这个算子前后都有线性层, 输入端的线性层是上采样(二倍), 输出端的线性层是下采样
     """
 
     def __init__(self):
