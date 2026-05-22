@@ -9,6 +9,8 @@
 
 # miniVLLM
 
+PS: 个人学习仓库, 原仓库:https://github.com/Wenyueh/MinivLLM
+
 A custom implementation of vLLM inference engine with attention mechanism benchmarks, based on Nano-vLLM but with self-contained paged attention and flash attention implementation. 
 
 Benchmarking on flash attention in prefilling time and paged attention in decoding time are provided.
